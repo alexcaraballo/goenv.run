@@ -1,8 +1,8 @@
-#!/bin/bash
-#
-# goenv.run: Simple launcher for goenv-installer
-# Usage: curl -fsSL https://alexcaraballo.github.io/goenv.run | bash
-#
-set -e
+# goenv.run
 
-curl -fsSL https://raw.githubusercontent.com/alexcaraballo/goenv-installer/main/bin/goenv-installer | bash
+🔧 Simple installer for [goenv](https://github.com/go-nv/goenv).
+
+## Install in one line
+
+```bash
+curl -fsSL https://alexcaraballo.github.io/goenv.run | bash
